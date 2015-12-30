@@ -1,0 +1,17 @@
+<div>
+    <div class="list card" ng-repeat="country in countrys" ng-click="redirectToCity('url')">
+        <div class="item item-image">
+            <img src="img/{{country.image}}" alt="country"/>
+        </div>
+        <div class="row paddingTop15px">
+            <div class="col col-66">
+                <p class="fontPink fontSize35px">{{country.countryName}}</p>
+                <p class="fontGray fontSize20px">{{country.tagline}}</p>
+            </div>
+            <div class="col col-33 textAlignRight">
+                <span class="displayInline-Block fontSize35px fontPink">{{country.malls}}</span>
+                <span class="displayInline-Block fontSize35px fontGray ion-chevron-right"></span>
+            </div>
+        </div>
+    </div>
+</div>

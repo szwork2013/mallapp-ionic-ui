@@ -1,0 +1,258 @@
+.borderAll{
+    border: 1px solid #000;
+}
+/*
+=============================
+        Margin Pixel
+=============================
+*/
+.margin30px{
+    margin: 30px !important;
+}
+/*
+=============================
+       Padding Pixel
+=============================
+*/
+.padding5px{
+    padding: 5px !important;
+}
+.padding10px{
+    padding: 10px !important;
+}
+.padding15px{
+    padding: 15px !important;
+}
+.padding20px{
+    padding: 20px !important;
+}
+/*
+=============================
+     Margin Top in Pixel
+=============================
+*/
+.marginTop5px{
+    margin-top: 5px !important;
+}
+.marginTop10px{
+    margin-top: 10px !important;
+}
+.marginTop15px{
+    margin-top: 15px !important;
+}
+.marginTop20px{
+    margin-top: 20px !important;
+}
+.marginTop25px{
+    margin-top: 25px !important;
+}
+.marginTop30px{
+    margin-top: 30px !important;
+}
+.marginTop35px{
+    margin-top: 35px !important;
+}
+.marginTop40px{
+    margin-top: 40px !important;
+}
+.marginTop50px{
+    margin-top: 50px !important;
+}
+.marginTop60px{
+    margin-top: 60px !important;
+}
+/*
+=============================
+    Margin in Percentage
+=============================
+*/
+.marginTop10p{
+    margin-top: 10% !important;
+}
+.marginTop15p{
+    margin-top: 15% !important;
+}
+.marginTop20p{
+    margin-top: 20% !important;
+}
+.marginTop25p{
+    margin-top: 25% !important;
+}
+.marginTop30p{
+    margin-top: 30% !important;
+}
+
+/*
+=============================
+      Margin Left Right
+=============================
+*/
+.marginLeftRight5p{
+    margin: 0 5% 0 5%;
+}
+.marginLeftRight10px{
+    margin: 0 10px 0 10px;
+}
+
+.marginRight40px{
+    margin-right: 40px !important;
+}
+.marginLeft15px{
+    margin-left: 15px;
+}
+.marginLeft50px{
+    margin-left: 50px;
+}
+.marginLeft55px{
+    margin-left: 55px;
+}
+.marginLeft60px{
+    margin-left: 60px;
+}
+.marginLeft65px{
+    margin-left: 65px;
+}
+.marginLeft70px{
+    margin-left: 70px;
+}
+
+/*
+=============================
+          Padding
+=============================
+*/
+.paddingTop10px{
+    padding-top: 10px;
+}
+.paddingTop15px{
+    padding-top: 15px;
+}
+.paddingTop20px{
+    padding-top: 20px;
+}
+.paddingTop25px{
+    padding-top: 25px;
+}
+.paddingTop30px{
+    padding-top: 10px;
+}
+.paddingTop40px{
+    padding-top: 40px;
+}
+/*
+=============================
+     Padding Top in Pixel
+=============================
+*/
+.paddingTop20px{
+    padding-top: 20px;
+}
+.paddingRight5px{
+    padding-right: 5px !important;
+}
+.paddingRight10px{
+    padding-right: 10px !important;
+}
+.paddingRight15px{
+    padding-right: 15px !important;
+}
+.paddingRight20px{
+    padding-right: 20px !important;
+}
+.paddingLeft15px{
+    padding-left: 15px;
+}
+.paddingTop2p{
+    padding-top: 2%;
+}
+.paddingTop5p{
+    padding-top: 5%;
+}
+.paddingTop6p{
+    padding-top: 6%;
+}
+
+/*
+=============================
+         Font Size
+=============================
+*/
+.fontSize15px{
+    font-size: 15px !important;
+}
+.fontSize20px{
+    font-size: 20px !important;
+}
+.fontSize21px{
+    font-size: 21px !important;
+}
+.fontSize22px{
+    font-size: 22px !important;
+}
+.fontSize23px{
+    font-size: 23px !important;
+}
+.fontSize24px{
+    font-size: 24px !important;
+}
+.fontSize25px{
+    font-size: 25px !important;
+}
+.fontSize30px{
+    font-size: 30px !important;
+}
+.fontSize35px{
+    font-size: 35px !important;
+}
+.fontSize40px{
+    font-size: 40px !important;
+}
+.fontSize45px{
+    font-size: 45px !important;
+}
+.fontSize50px{
+    font-size: 50px !important;
+}
+.fontWeightBold{
+    font-weight: bold !important;
+}
+.whiteSpaceInherit{
+    white-space: normal !important;
+}
+/*
+=============================
+         Text Align
+=============================
+*/
+.textAlignRight{
+    text-align: right;
+}
+.textAlignCenter{
+    text-align: center;
+}
+.textAlignLeft{
+    text-align: left;
+}
+.textAlignJustify{
+    text-align: justify;
+}
+
+/*
+=============================
+            Other
+=============================
+*/
+.btnBorderRadius{
+    border-radius: 23px !important;
+}
+.floatRight{
+    float: right !important;
+}
+.floatLeft{
+    float: left !important;
+}
+
+.displayInline-Block{
+    display: inline-block;
+}
+

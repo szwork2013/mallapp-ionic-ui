@@ -1,0 +1,11 @@
+<div>
+    <ul class="list">
+        <li class="item" ng-repeat="event in events" ng-click="redirectToEventDetail(event)">
+            <h2 class="fontPink fontSize20px">{{event.eventTitle}}</h2>
+            <div>
+                {{event.eventDetail}}
+            </div>
+            <div class="textAlignRight fontSize20px fontGray ion-chevron-right"></div>
+        </li>
+    </ul>
+</div>

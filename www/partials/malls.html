@@ -1,0 +1,35 @@
+<div>
+    <div class="list card" ng-repeat="mall in malls" ng-click="redirectToMall('url')">
+        <div class="item item-image">
+            <img src="img/{{mall.image}}" alt="Mall Iamge"/>
+        </div>
+        <div class="paddingTop15px paddingLeft15px">
+            <p class="fontPink fontSize20px">{{mall.mallName}}</p>
+            <p class="fontGray fontSize15px">{{mall.tagline}}</p>
+        </div>
+        <div class="row">
+            <div class="col col-80">
+                <ul class="mallIcons fontLightPink fontSize25px">
+                    <li class="displayInline-Block ion-location">
+                        <i class="badge badge-assertive">3</i>
+                    </li>
+                    <li class="displayInline-Block ion-calendar">
+
+                    </li>
+                    <li class="displayInline-Block ion-ios7-telephone">
+
+                    </li>
+                    <li class="displayInline-Block ion-ios7-pricetags">
+                        <i class="badge badge-assertive">2</i>
+                    </li>
+                    <li class="displayInline-Block ion-gear-b"></li>
+                    <li class="displayInline-Block ion-cube"></li>
+                </ul>
+            </div>
+            <div class="col col-20 textAlignRight" >
+                <span class="displayInline-Block paddingRight10px fontSize20px fontPink">{{mall.shops}}</span>
+                <span class="displayInline-Block fontSize20px fontGray ion-chevron-right"></span>
+            </div>
+        </div>
+    </div>
+</div>

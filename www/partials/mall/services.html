@@ -1,0 +1,18 @@
+<div>
+    <ul class="list">
+        <li class="item" ng-repeat="service in services">
+            <h2 class="fontSize20px">{{service.serviceName}}</h2>
+            <div class="row textAlignCenter">
+                <div class="col col-33 borderRightGray">
+                    <h2 class="displayInline-Block fontBlue" ng-click="showAlert(service.moreInformation)">More Info</h2>
+                </div>
+                <div class="col col-33 borderRightGray">
+                    <h2 class="displayInline-Block fontBlue" ng-click="showAlert(service.location)">{{service.location}}</h2>
+                </div>
+                <div class="col col-33">
+                    <h2 class="displayInline-Block">{{service.floor}}</h2>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

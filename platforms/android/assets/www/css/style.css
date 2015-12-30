@@ -1,0 +1,54 @@
+/*
+=============================
+           Header
+=============================
+*/
+
+.screenTitle{
+    font-weight: bold;
+}
+.bar{
+    border: 0;
+}
+.mallIcons{
+    list-style: none;
+}
+.mallIcons li{
+    padding: 0 5px 0 5px;
+    display: inline-block;
+}
+/*
+=============================
+          Badge
+=============================
+*/
+.badge {
+    padding: 1px 5px;
+    vertical-align: top;
+    font-size: 9px;
+    line-height: 14px;
+    margin-left: -8px;
+    margin-top: -5px;
+}
+.borderLeftGray{
+    border-left: 1px solid #dddddd;
+}
+.borderRightGray{
+    border-right: 1px solid #dddddd;
+}
+/*
+=============================
+          Button-Bar
+=============================
+*/
+.button-bar > .button{
+    padding: 0;
+}
+/*
+=============================
+          Height
+=============================
+*/
+.height70px{
+    height: 70px;
+}

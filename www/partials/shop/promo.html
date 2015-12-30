@@ -1,0 +1,14 @@
+<div>
+    <ul class="list">
+        <li class="item textAlignJustify" ng-repeat="promo in promos">
+            <h2 class="fontPink fontSize20px">{{promo.promoTitle}}</h2>
+            <div>
+                <p class="fontSize15px">{{promo.startingDate}}  -  {{promo.endingDate}}</p>
+            </div>
+            <div>
+                {{promo.promoDescription}}
+            </div>
+            <!--<div class="textAlignRight fontSize20px fontGray ion-chevron-right"></div>-->
+        </li>
+    </ul>
+</div>

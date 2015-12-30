@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+</head>
+<body ng-app="starter">
+<ion-pane>
+    <ion-header-bar class="bar-stable backgroundColorPink">
+        <h1 class="title screenTitle fontWhite">{{screenTitle}}</h1>
+    </ion-header-bar>
+    <div class="bar bar-subheader backgroundColorLightPink item-input-inset" ng-show="showSubHeader">
+        <!--<h2 class="title">Sub Header</h2>-->
+        <label class="item-input-wrapper">
+            <i class="icon ion-ios7-search placeholder-icon"></i>
+            <input type="search" placeholder="Search">
+        </label>
+    </div>
+    <ion-content>
+        <div ui-view></div>
+    </ion-content>
+
+    <div class="tabs tabs-icon-top backgroundColorPink fontWhite" ng-show="showTabs">
+        <a class="tab-item">
+            <i class="icon ion-home"></i>
+            Home
+        </a>
+        <a class="tab-item" ui-sref="profile">
+            <i class="icon ion-person"></i>
+            Profile
+        </a>
+        <a class="tab-item" ui-sref="favorites.malls">
+            <i class="icon ion-heart"></i>
+            Favorites
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-ios7-search"></i>
+            Search
+        </a>
+    </div>
+</ion-pane>
+
+
+<!-- libraries -->
+<script src="lib/ionic/js/angular-ui/angular-ui-router.min.js"></script>
+<script src="lib/ionic/js/ionic.bundle.js"></script>
+
+<!-- cordova script (this will be a 404 during development) -->
+<!--<script src="cordova.js"></script>-->
+
+<!-- your app's js -->
+<script src="js/app.js"></script>
+
+<!--services-->
+<script src="js/services/dataService.js"></script>
+<script src="js/services/utilityService.js"></script>
+<!--controllers-->
+<script src="js/controllers/mainController.js"></script>
+<script src="js/controllers/appController.js"></script>
+<script src="js/controllers/loginController.js"></script>
+<script src="js/controllers/signUpController.js"></script>
+<script src="js/controllers/countryController.js"></script>
+<script src="js/controllers/cityController.js"></script>
+<script src="js/controllers/suburbController.js"></script>
+<script src="js/controllers/mallsController.js"></script>
+<script src="js/controllers/mall/mallController.js"></script>
+<script src="js/controllers/mall/shopListController.js"></script>
+<script src="js/controllers/mall/servicesController.js"></script>
+<script src="js/controllers/mall/eventsController.js"></script>
+<script src="js/controllers/mall/eventDetailController.js"></script>
+<script src="js/controllers/mall/locationController.js"></script>
+<script src="js/controllers/mall/aboutController.js"></script>
+<script src="js/controllers/shop/shopController.js"></script>
+<script src="js/controllers/shop/aboutController.js"></script>
+<script src="js/controllers/shop/productsController.js"></script>
+<script src="js/controllers/shop/collectionController.js"></script>
+<script src="js/controllers/shop/promoCollection.js"></script>
+<script src="js/controllers/shop/locationController.js"></script>
+<script src="js/controllers/profile/profileController.js"></script>
+<script src="js/controllers/favorites/favoritesController.js"></script>
+<script src="js/controllers/favorites/favoriteMallsController.js"></script>
+<script src="js/controllers/favorites/favoriteShopsController.js"></script>
+
+
+</body>
+</html>

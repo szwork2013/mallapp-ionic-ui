@@ -1,0 +1,71 @@
+.fontPink{
+    color: #bb2288 !important;
+}
+.fontLightPink{
+    color: #cc88aa !important;
+}
+.fontGray{
+    color: #919191 !important;
+}
+.fontWhite{
+    color: #ffffff !important;
+}
+.fontBlue{
+    color: #4848f3 !important;
+}
+.backgroundColorPink{
+    background-color: #bb2288 !important;
+}
+.backgroundColorLightPink{
+    background-color: #c02184 !important;
+}
+
+/*
+=============================
+          Button
+=============================
+*/
+
+.button.button-positive.button-outline {
+    border-color: #bb2288;
+    background: transparent;
+    color: #bb2288;
+}
+.button.button-positive.button-outline.activated {
+    background-color: #bb2288;
+    color: #ffffff;
+}
+/*==============================*/
+.button.button-positive{
+    border-color: #b30178;
+    background-color: #bb2288;
+    color: #fff;
+}
+.button.button-positive.activated{
+
+    border-color: #b30178;
+    background-color: #b30178;
+
+}
+
+.toggle.toggle-assertive input:checked + .track{
+    border-color: #bb2288 !important;
+    background-color: #bb2288 !important;
+}
+
+
+.item-thumbnail-left > img:first-child, .item-thumbnail-left .item-image, .item-thumbnail-left .item-content > img:first-child, .item-thumbnail-left .item-content .item-image{
+    max-width: 100px;
+    max-height: 100px;
+}
+.item, .item h1, .item h2, .item h3, .item h4, .item h5, .item h6, .item p, .item-content, .item-content h1, .item-content h2, .item-content h3, .item-content h4, .item-content h5, .item-content h6, .item-content p{
+    white-space: inherit;
+}
+.item{
+    white-space: inherit;
+}
+
+.productImgWithAndHeight{
+    max-width: 150px !important;
+    max-height: 150px !important;
+}
